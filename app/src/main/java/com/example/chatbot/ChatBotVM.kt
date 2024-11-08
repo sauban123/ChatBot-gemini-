@@ -14,7 +14,7 @@ class ChatBotVM: ViewModel() {
     private val genAI by lazy{
         GenerativeModel(
             modelName = "gemini-pro",
-            apiKey = "AIzaSyAaXrvfdgUdxo_D0c_FQX2fZMQJ5bN8LRI"
+            apiKey = "ENTER YOUR API KEY HERE"
         )
     }
     fun sendMessage(message : String) = viewModelScope.launch {
